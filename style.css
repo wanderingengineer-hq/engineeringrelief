@@ -298,4 +298,9 @@ button{
     margin-top: 4rem;
     margin-bottom: 4rem;
 
-}
+
+@media (min-width: 600px){
+    body {
+        width: 100%;
+{
+
