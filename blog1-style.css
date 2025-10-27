@@ -1,0 +1,56 @@
+#ftw{
+    max-width: 50rem;
+    margin-left: 60rem;
+    margin-top: -20rem;
+    display: block;
+    margin: auto;
+    margin-top: 9rem;
+}
+
+#b1prg1{
+    font-size: 18px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 3rem;
+    text-align: justify;
+}
+
+#b1prg2{
+    font-size: 18px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 0rem;
+    text-align: justify;
+}
+
+#b1prg3{
+    font-size: 18px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 0rem;
+    text-align: justify;
+}
+
+#b1prg4{
+    font-size: 18px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+
+#blog1-polaroid{
+    width: 25rem;
+    float: left;
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+#blog1-dualpolaroid{
+    width: 35rem;
+    float: right;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+}
