@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 85.5%;
+}
+
+#logo{
+    font-family:"La Belle Aurore";
+    color: #442D1C
+}
+
+body{
+    font-family:"Montserrat";
+    background-color: #E8D1A7;
+}
+
+a{
+    text-decoration: none;
+    color: #442D1C;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: #442D1C;
+}
+
+.container{
+    max-width: 160rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.place-items-center{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    background-color: #84592B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 1.5rem;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.search-form-container{
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-color: #E8D1A7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity .5s;
+}
+
+.form-container-inner{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-input,
+.form-btn{
+    display: inline-block;
+    border: 2px solid #84592B;
+    padding: 1.5rem;
+}
+
+.form-input{
+    border-right: none;
+    width: 100%;
+}
+
+.form-btn{
+    margin-left: -.5rem;
+    border-left: none;
+    background-color: #84592B;
+    width: 8rem;
+}
+
+.form-note{
+    font-size: x-small;
+    align-self: flex-end;
+}
+
+.form-close-btn{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    border: 2px solid #84592B;
+    width: 4rem;
+    height: 4rem;
+}
+
+#main-logo{
+    width: 45%;
+    display: block; 
+    margin: 2rem auto;
+    margin-top: 10rem;
+    margin-bottom: 4rem;
+}
+
+.intro-text{
+    text-align: center; 
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 10px;
+    color: #4F382B; 
+}
+
+.intro-heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.intro-paragraph{
+    font-size: 1.2rem;
+    line-height: 1.6; 
+}
+
+#about-me{
+    max-width: 50rem;
+    margin: auto;
+    margin-top: -5rem;
+    display: block;
+    align-self: center;
+}
+
+#about-me-para1{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: larger;
+    text-align: justify;
+    text-align: center;
+}
+
+#about-me-para2{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: larger;
+    text-align: justify;
+    text-align: center;
+}
+
+#about-me-para3{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: larger;
+    text-align: justify;
+    text-align: center;
+}
+
+#about-me-para4{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: larger;
+    text-align: justify;
+    text-align: center;
+}
+
+#about-me-paras{
+    margin-top: -17rem;
+}
+
+#logos-list{
+    margin: 2rem auto;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    justify-content: center;
+}
+
+.latest-heading{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    text-align: center;
+    color: #4F382B;
+}
+
+#thumbnail1{
+    width: 35%;
+    position: relative; 
+    margin: 2rem auto;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+#latest-desc{
+    font-size: 1.2rem;
+    line-height: 1.6; 
+    text-align: center;
+    margin-top: -3rem;
+    font-size: larger;
+    color: #4F382B;
+}
+
+#latest-desc-sub{
+    font-size: 1.2rem;
+    line-height: 1.6; 
+    text-align: center;
+    font-size: small;
+    margin-top: -1rem;
+    margin-bottom: 2.5rem;
+    color: #4F382B;
+}
+
+#blogdesc{
+    font-size: 1rem;
+    line-height: 1.6; 
+    text-align: center;
+    margin-top: -3rem;
+    font-size: larger;
+    margin-bottom: 2.5rem;
+    color: #4F382B;
+}
+
+.bloglist{
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#thumbnail1b{
+    width: 20%;
+    position: relative; 
+    margin: 2rem auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
