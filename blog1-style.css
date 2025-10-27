@@ -1,6 +1,6 @@
 
 #ftw{
-    max-width: 50rem;
+    max-width: 50%;
     margin-left: 60rem;
     margin-top: -20rem;
     display: block;
@@ -42,17 +42,18 @@
 }
 
 #blog1-polaroid{
-    width: 25rem;
+    width: 25%;
     float: left;
     margin-left: 6rem;
     margin-top: 2rem;
 }
 
 #blog1-dualpolaroid{
-    width: 35rem;
+    width: 35%;
     float: right;
     margin-right: 4rem;
     margin-bottom: 2rem;
     margin-top: -2rem;
 
 }
+
