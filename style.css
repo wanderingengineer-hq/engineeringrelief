@@ -166,8 +166,32 @@ button{
     align-self: center;
 }
 
-#about-me-paras{
-    margin-top: -17rem;
+#about-me-para1{
+    margin-top: -2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-size: larger;
+    text-align: justify;
+    text-align: center;
+}
+
+#about-me-para2{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-size: larger;
+    text-align: justify;
+    text-align: center;
+}
+
+#about-me-para3{
+    margin-left: 6rem;
+    margin-right: 6rem;
+    font-size: larger;
+    text-align: justify;
+    text-align: center;
+}
+
+#about-me-para4{
     margin-left: 6rem;
     margin-right: 6rem;
     font-size: larger;
@@ -244,5 +268,6 @@ button{
     margin-bottom: 4rem;
 
 }
+
 
 
