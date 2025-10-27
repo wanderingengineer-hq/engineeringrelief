@@ -1,3 +1,4 @@
+
 #ftw{
     max-width: 50rem;
     margin-left: 60rem;
@@ -53,4 +54,10 @@
     margin-right: 4rem;
     margin-bottom: 2rem;
     margin-top: -2rem;
+
 }
+
+@media (min-width: 600px){
+    body {
+        width: 100%;
+{
